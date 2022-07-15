@@ -1,0 +1,28 @@
+@import "fonts";
+body {
+    font-family: arkhip_font;
+    font-weight: 400;
+    background-color: #000;
+    background-image: url('@img/lovepik-abstract-geometry-png-image_400538710_wh1200.png');
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        color: #000;
+    }
+}
